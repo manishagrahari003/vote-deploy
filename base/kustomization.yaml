@@ -3,3 +3,7 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
+images:
+- name: schoolofdevops/vote
+  newName: manish7863/vote
+  newTag: v2
